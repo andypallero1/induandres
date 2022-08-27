@@ -12,11 +12,16 @@
 }
 @media (max-width: 576px) {
     .titulo-indumentaria {
-        font-size: 30px !important;
+        font-size: 48px !important;
         padding: 10px;
     }    
 }
-
+@media (min-width: 576px) {
+    .titulo-indumentaria{
+        font-size:70px !important;
+        padding: 30px;
+    }
+}
 .titulo{
       background-image: url("../inicio/img/background1.jpg");
     background-repeat: no-repeat;
@@ -65,8 +70,8 @@ ul li a:hover{
 
 .cajaFixed {
     position: fixed;
-    bottom: 3px;
-    right: 5px;
+    bottom: 30px;
+    right: 30px;
     object-fit: 30px;
 
 }
@@ -114,10 +119,11 @@ ul li a:hover{
     align-items: center;
 }
 
-.flexhi{
+.producto{
     color: gray;
     font-size: 25px;
     text-align: center;
+    
     
 }
 .contacting{
@@ -125,7 +131,23 @@ ul li a:hover{
 }
 
 @media (max-width: 576px) {
-    .img-ropa-hombre {
+    .img-ropa {
         max-width: 400px;
+    }
+}
+
+@media (max-width: 800px) {
+    .flexhi {
+        width: 105px;
+    }
+}
+@media (max-width: 768px){
+    .producto {
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px){
+    .flexpa {
+        height: 650px;
     }
 }
