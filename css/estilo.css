@@ -1,15 +1,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap');
 
-h1 {
+.titulo-indumentaria {
   color: black;
-  font-size: 100px !important; 
+  font-size: 100px;
   text-align: center;
   font-family: 'Cormorant SC', serif;
   margin: auto;
   padding: 80px;
 
 }
+@media (max-width: 576px) {
+    .titulo-indumentaria {
+        font-size: 30px !important;
+        padding: 10px;
+    }    
+}
+
 .titulo{
       background-image: url("../inicio/img/background1.jpg");
     background-repeat: no-repeat;
@@ -117,4 +124,8 @@ ul li a:hover{
     float: right;
 }
 
-
+@media (max-width: 576px) {
+    .img-ropa-hombre {
+        max-width: 400px;
+    }
+}
