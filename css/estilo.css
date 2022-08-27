@@ -5,9 +5,10 @@
   color: black;
   font-size: 100px;
   text-align: center;
-  font-family: 'Cormorant SC', serif;
+  font-family:'Cormorant SC', serif;
   margin: auto;
   padding: 80px;
+  font-weight: bold;
 
 }
 @media (max-width: 576px) {
